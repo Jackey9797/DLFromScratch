@@ -1,0 +1,20 @@
+# Training para
+lr: 1e-3
+train_epochs: 10
+valid_epochs: 20
+batch_size: 256
+loss_func: 
+
+# Model para
+input_size: 784
+output_size: 10
+layer_num: 1
+hidden_size: 128
+activation: "R"
+
+# additional para 
+dropout: None
+
+# env para
+save_dir: "exp/" 
+# exp_name: "_2022-10-07_16-48-25"
